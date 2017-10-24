@@ -1,0 +1,52 @@
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+URxvt.cursorColor: #00ffbe
+URxvt.font: xft:dejavu sans mono:size=11
+URxvt.perl-ext-common: ...,tabbedex,...
+URxvt.tabbed.autohide: yes
+URxvt.tabbed.new-button: no
+URxvt.scrollColor: #330099
+URxvt.scrollstyle: plain
+URxvt.scrollBar_right: true
+
+*foreground: #a4fce6
+*background: #000000
+
+! black
+*color0: #1c1919
+*color8: #4d4d4d
+
+! red
+! *color1: #c25aea
+! *color1: #c500ff
+*color1: #d96af9
+*color9: #f1c5fe
+
+! green
+! *color2: #00cb5c
+*color2: #00fd4c
+*color10: #bffdd2
+
+! yellow
+! *color3: #32d4a7
+*color3: #10fbc3
+*color11: #a4fde8
+
+! blue
+! *color4: #4b96d1
+*color4: #41d9f4
+*color12: #a7f0fd
+
+! magenta
+! *color5: #6b10d4
+*color5: #8800ff
+*color13: #dbb4fd
+
+! cyan
+! *color6: #42dede
+*color6: #14fff3
+*color14: #a1fcf7
+
+! white
+*color7: #e5e5e5
+*color15: #ffffff

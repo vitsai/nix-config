@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "stddef.h"
+      :pointmax 13755
+      :fsize 13754
+      :lastmodtime '(22717 21090 0 0)
+      :unmatched-syntax '((punctuation 13753 . 13754) (punctuation 13752 . 13753) (symbol 13745 . 13751) (symbol 13737 . 13744) (symbol 13733 . 13736) (symbol 13729 . 13732) (symbol 13718 . 13728) (punctuation 13716 . 13717) (punctuation 13715 . 13716))))
+  :file "!usr!lib!gcc!x86_64-pc-linux-gnu!6.3.1!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

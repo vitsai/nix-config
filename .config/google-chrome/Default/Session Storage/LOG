@@ -1,0 +1,21 @@
+2017/10/23-00:02:27.320 4993 Reusing MANIFEST /home/vitsai/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2017/10/23-00:02:27.320 4993 Recovering log #383
+2017/10/23-00:02:27.704 4993 Reusing old log /home/vitsai/.config/google-chrome/Default/Session Storage/000383.log 
+2017/10/23-00:04:56.848 15152 Level-0 table #388: started
+2017/10/23-00:04:56.929 15152 Level-0 table #388: 19064 bytes OK
+2017/10/23-00:04:57.029 15152 Delete type=0 #383
+2017/10/23-14:58:38.604 15152 Compacting 1@1 + 1@2 files
+2017/10/23-14:58:38.701 15152 Generated table #389@1: 463 keys, 22317 bytes
+2017/10/23-14:58:38.701 15152 Compacted 1@1 + 1@2 files => 22317 bytes
+2017/10/23-14:58:38.746 15152 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/10/23-14:58:38.746 15152 Delete type=2 #388
+2017/10/23-14:58:38.747 15152 Delete type=2 #385
+2017/10/23-17:06:04.454 15152 Level-0 table #391: started
+2017/10/23-17:06:04.515 15152 Level-0 table #391: 18205 bytes OK
+2017/10/23-17:06:04.615 15152 Delete type=0 #387
+2017/10/23-18:32:31.806 15152 Compacting 1@1 + 1@2 files
+2017/10/23-18:32:31.878 15152 Generated table #392@1: 524 keys, 23971 bytes
+2017/10/23-18:32:31.878 15152 Compacted 1@1 + 1@2 files => 23971 bytes
+2017/10/23-18:32:31.911 15152 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/10/23-18:32:31.911 15152 Delete type=2 #389
+2017/10/23-18:32:31.911 15152 Delete type=2 #391

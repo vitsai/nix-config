@@ -1,0 +1,9 @@
+2017/08/09-16:51:49.845 5553 Reusing MANIFEST /home/relikt/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/08/09-16:51:49.847 5553 Recovering log #72
+2017/08/09-16:51:50.058 5553 Reusing old log /home/relikt/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000072.log 
+2017/08/09-16:54:14.209 6834 Level-0 table #79: started
+2017/08/09-16:54:14.525 6834 Level-0 table #79: 5956832 bytes OK
+2017/08/09-16:54:14.545 6834 Delete type=0 #72
+2017/08/09-16:54:56.415 6834 Level-0 table #81: started
+2017/08/09-16:54:56.465 6834 Level-0 table #81: 4835470 bytes OK
+2017/08/09-16:54:56.472 6834 Delete type=0 #78

@@ -1,0 +1,98 @@
+2017/08/30-22:52:04.201 1379 Reusing MANIFEST /home/relikt/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/08/30-22:52:04.202 1379 Recovering log #9
+2017/08/30-22:52:04.202 1379 Reusing old log /home/relikt/.config/chromium/Default/Session Storage/000009.log 
+2017/08/30-22:53:58.356 2330 Level-0 table #13: started
+2017/08/30-22:53:58.362 2330 Level-0 table #13: 16002 bytes OK
+2017/08/30-22:53:58.367 2330 Delete type=0 #9
+2017/08/31-14:30:16.758 2330 Compacting 2@0 + 1@1 files
+2017/08/31-14:30:16.764 2330 Generated table #14@0: 497 keys, 19302 bytes
+2017/08/31-14:30:16.764 2330 Compacted 2@0 + 1@1 files => 19302 bytes
+2017/08/31-14:30:16.769 2330 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/08/31-14:30:16.770 2330 Delete type=2 #10
+2017/08/31-14:30:16.770 2330 Delete type=2 #8
+2017/08/31-14:30:16.770 2330 Delete type=2 #13
+2017/08/31-14:52:15.212 2330 Level-0 table #16: started
+2017/08/31-14:52:15.218 2330 Level-0 table #16: 15887 bytes OK
+2017/08/31-14:52:15.223 2330 Delete type=0 #12
+2017/08/31-15:06:38.848 2330 Level-0 table #18: started
+2017/08/31-15:06:38.854 2330 Level-0 table #18: 11242 bytes OK
+2017/08/31-15:06:38.859 2330 Delete type=0 #15
+2017/08/31-15:06:55.847 2330 Level-0 table #20: started
+2017/08/31-15:06:55.854 2330 Level-0 table #20: 14381 bytes OK
+2017/08/31-15:06:55.860 2330 Delete type=0 #17
+2017/08/31-15:10:54.089 2330 Level-0 table #22: started
+2017/08/31-15:10:54.095 2330 Level-0 table #22: 9019 bytes OK
+2017/08/31-15:10:54.100 2330 Delete type=0 #19
+2017/08/31-15:10:54.101 2330 Compacting 4@0 + 1@1 files
+2017/08/31-15:10:54.110 2330 Generated table #23@0: 560 keys, 23019 bytes
+2017/08/31-15:10:54.110 2330 Compacted 4@0 + 1@1 files => 23019 bytes
+2017/08/31-15:10:54.115 2330 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/08/31-15:10:54.116 2330 Delete type=2 #20
+2017/08/31-15:10:54.117 2330 Delete type=2 #18
+2017/08/31-15:10:54.117 2330 Delete type=2 #16
+2017/08/31-15:10:54.117 2330 Delete type=2 #14
+2017/08/31-15:10:54.117 2330 Delete type=2 #22
+2017/08/31-15:34:32.850 2330 Level-0 table #25: started
+2017/08/31-15:34:32.858 2330 Level-0 table #25: 13787 bytes OK
+2017/08/31-15:34:32.863 2330 Delete type=0 #21
+2017/08/31-15:34:38.848 2330 Level-0 table #27: started
+2017/08/31-15:34:38.855 2330 Level-0 table #27: 10332 bytes OK
+2017/08/31-15:34:38.860 2330 Delete type=0 #24
+2017/08/31-15:39:39.579 2330 Level-0 table #29: started
+2017/08/31-15:39:39.585 2330 Level-0 table #29: 10755 bytes OK
+2017/08/31-15:39:39.590 2330 Delete type=0 #26
+2017/08/31-16:23:45.865 2330 Level-0 table #31: started
+2017/08/31-16:23:45.871 2330 Level-0 table #31: 13168 bytes OK
+2017/08/31-16:23:45.875 2330 Delete type=0 #28
+2017/08/31-16:23:45.875 2330 Compacting 4@0 + 1@1 files
+2017/08/31-16:23:45.881 2330 Generated table #32@0: 642 keys, 29083 bytes
+2017/08/31-16:23:45.881 2330 Compacted 4@0 + 1@1 files => 29083 bytes
+2017/08/31-16:23:45.885 2330 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/08/31-16:23:45.885 2330 Delete type=2 #31
+2017/08/31-16:23:45.885 2330 Delete type=2 #29
+2017/08/31-16:23:45.885 2330 Delete type=2 #27
+2017/08/31-16:23:45.885 2330 Delete type=2 #25
+2017/08/31-16:23:45.885 2330 Delete type=2 #23
+2017/08/31-16:27:37.799 2330 Level-0 table #34: started
+2017/08/31-16:27:37.805 2330 Level-0 table #34: 11879 bytes OK
+2017/08/31-16:27:37.810 2330 Delete type=0 #30
+2017/08/31-17:32:49.115 2330 Compacting 1@1 + 1@2 files
+2017/08/31-17:32:49.123 2330 Generated table #35@1: 188 keys, 22026 bytes
+2017/08/31-17:32:49.123 2330 Compacted 1@1 + 1@2 files => 22026 bytes
+2017/08/31-17:32:49.128 2330 compacted to: files[ 1 0 1 0 0 0 0 ]
+2017/08/31-17:32:49.128 2330 Delete type=2 #5
+2017/08/31-17:32:49.128 2330 Delete type=2 #32
+2017/08/31-18:22:16.131 2330 Level-0 table #37: started
+2017/08/31-18:22:16.136 2330 Level-0 table #37: 20282 bytes OK
+2017/08/31-18:22:16.141 2330 Delete type=0 #33
+2017/08/31-18:29:00.506 2330 Level-0 table #39: started
+2017/08/31-18:29:00.516 2330 Level-0 table #39: 13598 bytes OK
+2017/08/31-18:29:00.526 2330 Delete type=0 #36
+2017/08/31-18:47:58.625 2330 Level-0 table #41: started
+2017/08/31-18:47:58.631 2330 Level-0 table #41: 14953 bytes OK
+2017/08/31-18:47:58.637 2330 Delete type=0 #38
+2017/08/31-18:47:58.637 2330 Compacting 4@0 + 0@1 files
+2017/08/31-18:47:58.645 2330 Generated table #42@0: 198 keys, 25462 bytes
+2017/08/31-18:47:58.645 2330 Compacted 4@0 + 0@1 files => 25462 bytes
+2017/08/31-18:47:58.649 2330 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/08/31-18:47:58.650 2330 Delete type=2 #39
+2017/08/31-18:47:58.650 2330 Delete type=2 #41
+2017/08/31-18:47:58.650 2330 Delete type=2 #34
+2017/08/31-18:47:58.650 2330 Delete type=2 #37
+2017/08/31-18:48:31.962 2330 Level-0 table #44: started
+2017/08/31-18:48:31.968 2330 Level-0 table #44: 14585 bytes OK
+2017/08/31-18:48:31.973 2330 Delete type=0 #40
+2017/08/31-19:10:02.996 2330 Level-0 table #46: started
+2017/08/31-19:10:03.003 2330 Level-0 table #46: 12742 bytes OK
+2017/08/31-19:10:03.009 2330 Delete type=0 #43
+2017/08/31-19:14:01.304 2330 Level-0 table #48: started
+2017/08/31-19:14:01.310 2330 Level-0 table #48: 17517 bytes OK
+2017/08/31-19:14:01.315 2330 Delete type=0 #45
+2017/08/31-19:51:44.388 2330 Compacting 3@0 + 1@1 files
+2017/08/31-19:51:44.396 2330 Generated table #49@0: 341 keys, 34025 bytes
+2017/08/31-19:51:44.396 2330 Compacted 3@0 + 1@1 files => 34025 bytes
+2017/08/31-19:51:44.405 2330 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/08/31-19:51:44.406 2330 Delete type=2 #48
+2017/08/31-19:51:44.406 2330 Delete type=2 #46
+2017/08/31-19:51:44.406 2330 Delete type=2 #44
+2017/08/31-19:51:44.406 2330 Delete type=2 #42

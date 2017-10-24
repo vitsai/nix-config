@@ -1,0 +1,34 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("tool-bar-mode" code nil nil [1 19])
+            ("menu-bar-mode" code nil nil [20 38])
+            ("load-file" code nil nil [39 105])
+            ("semantic-load-enable-code-helpers" code nil nil [106 141])
+            ("package" include nil nil [396 414])
+            ("setq" code nil nil [416 531])
+            ("load" code nil nil [532 558])
+            ("setq" code nil nil [559 581])
+            ("setq" code nil nil [582 605])
+            ("custom-set-variables" code nil nil [606 1026])
+            ("custom-set-faces" code nil nil [1027 1266])
+            ("package-initialize" code nil nil [1267 1287])
+            ("add-to-list" code nil nil [1288 1345])
+            ("setq" code nil nil [1346 1431])
+            ("arduino-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [1432 1497]))          
+      :file "init.el~"
+      :pointmax 1498
+      :fsize 1581
+      :lastmodtime '(22863 10062 253235 486000)
+      :unmatched-syntax nil))
+  :file "!home!relikt!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
