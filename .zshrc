@@ -4,13 +4,13 @@ HISTSIZE=10000
 SAVEHIST=100000
 # End of lines configured by zsh-newuser-install
 
-#eval "$(fasd --init auto)"
+eval "$(fasd --init auto)"
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=~/code/build/bin:~/tools/arcanist/bin:~/code/devtools/bin:~/code/google-styleguide/cpplint:$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/vitsai/.oh-my-zsh
+  export ZSH=/Users/vitsai/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -25,7 +25,7 @@ ZSH_THEME="relikt"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+ DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 export UPDATE_ZSH_DAYS=23
@@ -83,6 +83,8 @@ if [[ -n $SSH_CONNECTION ]]; then
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -91,19 +93,29 @@ if [[ -n $SSH_CONNECTION ]]; then
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls='ls -lcBF --group-directories-first --color'
+#alias ls='ls -lcBF --group-directories-first --color'
+alias ls='ls -lGF'
 alias synctime='sudo ntpdate -s time.nist.gov'
 alias mkpkg='makepkg -si'
 alias emacs='emacs -nw'
 alias inspire='fortune | cowthink | lolcat'
-
-#classes
-alias 171='cd ~/Dropbox/stanford/fr-spr/MATH171'
-alias 120='cd ~/Dropbox/stanford/fr-spr/MATH120'
-alias 63cm='cd ~/Dropbox/stanford/fr-spr/MATH63CM'
-alias e40m='cd ~/Dropbox/stanford/fr-spr/E40M'
-alias think='cd ~/Dropbox/stanford/fr-spr/THINK53'
-
-inspire
-source /opt/ros/kinetic/setup.bash
-source /opt/ros/kinetic/setup.zsh
+alias ybt='cd ~/code/yugabyte'
+alias yb='cd ~/code/yugabyte/src/yb'
+alias gg='git grep'
+alias gb='git blame'
+alias reds='cd ~/code/yugabyte/src/yb/yql/redis/redisserver'
+alias cql='cd ~/code/yugabyte/src/yb/yql/cql/ql'
+alias cmn='cd ~/code/yugabyte/src/yb/common'
+alias docdb='cd ~/code/yugabyte/src/yb/docdb'
+alias rebuild='ybt && ./yb_build.sh'
+alias rez='. ~/.zshrc'
+alias rtable='./build/debug-clang-dynamic-enterprise/bin/yb-admin --master_addresses 127.0.0.1:7100,127.0.0.2:7100,127.0.0.3:7100 setup_redis_table'
+alias redis='ybt && ./bin/yb-ctl destroy && ./bin/yb-ctl create && sleep 2 && ./bin/yb-ctl setup_redis && ./bin/redis-cli'
+alias tslog='~/tslog'
+alias rr='rebuild && redis'
+bindkey ' ' magic-space
+alias cql-tests='ybt && cd java/yb-cql/src/test/java/org/yb/cql'
+alias surefire='cd ~/code/yugabyte/java/yb-cql/target/surefire-reports'
+alias arcclear='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+alias centos='ssh centos@dev-server-victoria -p 54422'
+alias devserv='ssh victoria@dev-server-victoria -p 54422'
