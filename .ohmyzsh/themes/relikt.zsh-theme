@@ -2,7 +2,8 @@ PROMPT='%{$fg[red]%}λ %{$fg[blue]%}%n%{$fg[yellow]%}♞ %{$fg[blue]%}%m %{$fg[g
 
 RPROMPT='%*'
 
-source ~/zsh-git-prompt/zshrc.sh
+source ~/.zsh-git-prompt/zshrc.sh
+
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[blue]%}〈"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg[blue]%}〉"
 ZSH_THEME_GIT_PROMPT_SEPARATOR="%{$fg[blue]%}|"
