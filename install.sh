@@ -1,7 +1,7 @@
 #!/bin/bash
 # intended for fedora workstation
 # because real adults don't have time to play with arch 24/7
-# preinstalled: python, evince, xrandr, xmodmap, git, curl, wget
+# preinstalled: python, evince, xrandr, setxkbmap, git, curl, wget
 
 username='vitsai'
 home_dir="/home/${username}"
@@ -25,7 +25,7 @@ if [ -z "$1" ]; then
 
   # move static dotfiles
   rsync -aP ./dotfiles/.[^.]* $home_dir
-  echo "#\!/bin/sh\nfeh --no-fehbg --bg-center --image-bg 'black' '${home_dir}/.img/frey.jpg'" > ${home_dir}/.fehbg
+  echo $"#\!/bin/sh\nfeh --no-fehbg --bg-center --image-bg 'black' '${home_dir}/.img/frey.jpg'" > ${home_dir}/.fehbg
 
   # git repos
   git clone https://github.com/preservim/nerdtree.git ${home_dir}/.vim/pack/vendor/start/nerdtree

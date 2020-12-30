@@ -53,12 +53,22 @@ bindsym $mod+b exec firefox
 bindsym $mod+c exec chromium-browser
 
 # change language
+# setxkbmap does current session
+# localectl only writes config
+# loadkeys too, I think?
 mode "language" {
-  bindcode 26 localectl set-locale LANG=en_US.UTF-8 #e
-  bindcode 27 localectl set-locale LANG=ru_RU.UTF-8 #r
-  bindcode 39 localectl set-locale LANG=es_US.UTF-8 #s
-  bindcode 44 localectl set-locale LANG=jp_JP.UTF-8 #j
-  bindcode 54 localectl set-locale LANG=zh_TW.UTF-8 #c
+  # e
+  bindcode 26 exec setxkbmap us -option ctrl:swapcaps; mode "default"
+  # r
+  bindcode 27 exec setxkbmap ru -option ctrl:swapcaps; mode "default"
+  # s
+  bindcode 39 exec setxkbmap es -option ctrl:swapcaps; mode "default"
+  # j
+  bindcode 44 exec setxkbmap jp -option ctrl:swapcaps; mode "default"
+  # c
+  bindcode 54 exec setxkbmap tw -option ctrl:swapcaps; mode "default"
+
+  bindsym $mod+space mode "default"
 }
 
 bindsym $mod+space mode "language"
@@ -119,10 +129,10 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+\ floating toggle
+bindsym $mod+Shift+y floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+\ focus mode_toggle
+bindsym $mod+y focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
