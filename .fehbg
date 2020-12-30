@@ -1,2 +1,2 @@
 #!/bin/sh
-feh  --image-bg black --bg-center '~/Downloads/frey.jpg' 
+feh  --image-bg black --bg-center '~/.img/frey.jpg' 
