@@ -17,7 +17,7 @@ if [ -z "$1" ]; then
   # install utilities
   dnf install chromium i3 xmonad feh rxvt-unicode dmenu snapd
   dnf install zsh vim emacs tmux htop util-linux-user
-  dnf install haskell-platform
+  dnf install haskell-platform cmake gcc-c++ doxygen
   dnf install sl cowsay lolcat fortune
 
   chsh -s /bin/zsh $username
