@@ -15,7 +15,7 @@ if [ -z "$1" ]; then
   dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
   # install utilities
-  dnf install chromium i3 xmonad feh rxvt-unicode dmenu snapd
+  dnf install chromium i3 xmonad feh rxvt-unicode dmenu snapd gimp alien
   dnf install zsh vim emacs tmux htop util-linux-user
   dnf install haskell-platform cmake gcc-c++ doxygen
   dnf install sl cowsay lolcat fortune
